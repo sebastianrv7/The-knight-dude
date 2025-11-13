@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,10 +57,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,15 +135,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platforms_0
+      name: GreenFloor
       rect:
         serializedVersion: 2
         x: 0
-        y: 54
-        width: 49
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 55
+        width: 48
+        height: 9
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -157,15 +157,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platforms_1
+      name: BrownFloor
       rect:
         serializedVersion: 2
         x: 0
-        y: 38
-        width: 49
-        height: 11
+        y: 39
+        width: 48
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,15 +179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platforms_2
+      name: YellowFloor
       rect:
         serializedVersion: 2
         x: 0
-        y: 22
-        width: 49
-        height: 11
+        y: 23
+        width: 48
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,15 +201,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platforms_3
+      name: BlueFloor
       rect:
         serializedVersion: 2
         x: 0
-        y: 6
-        width: 49
-        height: 11
+        y: 7
+        width: 48
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 644dde545e289ec48953d05d3dc5706d
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      platforms_0: 8483051222464998911
-      platforms_1: 1177557654815410699
-      platforms_2: -6327628624318395971
-      platforms_3: -479701902432577090
+      BlueFloor: -479701902432577090
+      BrownFloor: 1177557654815410699
+      GreenFloor: 8483051222464998911
+      YellowFloor: -6327628624318395971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

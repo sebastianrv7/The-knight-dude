@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_green_0
+      name: SPAWN1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 47
-        width: 16
-        height: 11
+        x: 0
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,13 +181,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_1
+      name: SPAWN2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 47
-        width: 16
-        height: 12
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,13 +203,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_2
+      name: SPAWN3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 47
-        width: 16
-        height: 13
+        x: 48
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,13 +225,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_3
+      name: SPAWN4
       rect:
         serializedVersion: 2
-        x: 76
-        y: 47
-        width: 16
-        height: 14
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,13 +247,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_4
+      name: WALK1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 23
-        width: 16
-        height: 14
+        x: 0
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,13 +269,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_5
+      name: WALK2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 23
-        width: 16
-        height: 15
+        x: 24
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,13 +291,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_6
+      name: WALK3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 23
-        width: 16
-        height: 17
+        x: 48
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,13 +313,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_7
+      name: WALK4
       rect:
         serializedVersion: 2
-        x: 76
-        y: 23
-        width: 16
-        height: 15
+        x: 72
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,13 +335,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_8
+      name: HIT1
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,13 +357,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_9
+      name: HIT2
       rect:
         serializedVersion: 2
-        x: 28
+        x: 24
         y: 0
-        width: 16
-        height: 14
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,13 +379,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_10
+      name: HIT3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 0
-        width: 16
-        height: 14
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,13 +401,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_green_11
+      name: HIT4
       rect:
         serializedVersion: 2
-        x: 76
+        x: 72
         y: 0
-        width: 16
-        height: 14
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,7 +426,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e898db60612ba1a498631468b6d69ddb
     internalID: 0
     vertices: []
     indices: 
@@ -436,18 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      slime_green_0: 4534810592809177352
-      slime_green_1: 4942287488895418986
-      slime_green_10: 3803185021826026693
-      slime_green_11: -1230229059110720307
-      slime_green_2: 3955944898913636364
-      slime_green_3: -6882059581611173700
-      slime_green_4: -1727531430047209334
-      slime_green_5: -6164068006029348930
-      slime_green_6: 1922484197113216012
-      slime_green_7: -8128283161498370404
-      slime_green_8: -3755709670084083772
-      slime_green_9: -7670263608759839954
+      HIT1: -3755709670084083772
+      HIT2: -7670263608759839954
+      HIT3: 3803185021826026693
+      HIT4: -1230229059110720307
+      SPAWN1: 4534810592809177352
+      SPAWN2: 4942287488895418986
+      SPAWN3: 3955944898913636364
+      SPAWN4: -6882059581611173700
+      WALK1: -1727531430047209334
+      WALK2: -6164068006029348930
+      WALK3: 1922484197113216012
+      WALK4: -8128283161498370404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
